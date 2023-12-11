@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./black\ lady.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    background-color: brown;
+    border-radius: 50px 0 0 50px ;
+    border: none;
+    border-right: 1px solid grey;
+    width: 50px;
+    height: 50px;
+}
+
+
+#btn{
+    height: 50px;
+    width: 40px;
+    border-radius: 0 50px 50px 0;
+color: blanchedalmond;
+background-color: brown;
+font-size: 20px;
+display: flex;
+text-align: center;
+align-items: center;
+padding-left: 10px;
+}

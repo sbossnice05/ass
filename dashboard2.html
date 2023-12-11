@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Techie Village</title>
+</head>
+
+<body>
+    <nav class="sidebar close" id="close">
+        <header>
+            <div class="image-text">
+                <span class="image">
+                    <img src="https://drive.google.com/uc?export=view&id=1ETZYgPpWbbBtpJnhi42_IR3vOwSOpR4z" alt="">
+                </span>
+
+                <div class="text logo-text">
+                    <span class="name">Popoola Philip</span>
+                    <span class="profession">Web developer</span>
+                </div>
+            </div>
+
+            <i class='fas fa-arrow-alt-circle-right toggle' id="toggle"></i>
+            <i class='fas fa-arrow-alt-circle-left untoggle' id="untoggle"></i>
+        </header>
+        <div class="menu-bar">
+            <div class="menu">
+
+                <li class="search-box">
+                    <i class='fas fa-search icon'></i>
+                    <input type="text" placeholder="Search...">
+                </li>
+
+                <ul class="menu-links">
+                    <li class="nav-link" id="menuIc"  onclick="showDashboard()">
+                        <a href="#">
+                            <i class='fas fa-home icon'></i>
+                            <span class="text nav-text">Dashboard</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link"id="menuchartIc" onclick="showPageTwo()">
+                        <a href="#">
+                            <i class='fas fa-chart-bar icon'></i>
+                            <span class="text nav-text">Revenue</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link" onclick="showPageThree()" id="notifyIc">
+                        <a href="#">
+                            <i class='fas fa-bell icon'></i>
+                            <span class="text nav-text">Notifications</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link" onclick="showPageFour()" id="analyIc">
+                        <a href="#">
+                            <i class='fas fa-chart-pie icon'></i>
+                            <span class="text nav-text">Analytics</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link" onclick="showPageFive()" id="likeIc">
+                        <a href="#">
+                            <i class='fas fa-heart icon'></i>
+                            <span class="text nav-text">Likes</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#">
+                            <i class='fas fa-wallet icon'></i>
+                            <span class="text nav-text">Wallets</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+                <li class="">
+                    <a href="#">
+                        <i class='fas fa-sign-out-alt icon'></i>
+                        <span class="text nav-text">Logout</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="sun-moon">
+                        <i class='fas fa-moon icon moon'></i>
+                        <i class='fas fa-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark mode</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+    <section class="home">
+        <section class=" dashboard">
+            <div class="text">Dashboard Sidebar</div>
+        </section>
+        <section class=" pagetwo">
+            <div class="text">Page Two</div>
+        </section>
+        <section class=" pagethree">
+            <div class="text">Page Three</div>
+        </section>
+        <section class=" pagefour">
+            <div class="text">Page Four</div>
+        </section>
+        <section class=" pagefive">
+            <div class="text">Page Five</div>
+        </section>
+    </section>
+
+    <script src="dashboard2.js"></script>
+</body>
+
+</html>
